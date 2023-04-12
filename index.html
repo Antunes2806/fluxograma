@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>fluxograma</title>
+</head>
+<script> 
+     function login_faça() {
+    var usuario;
+    var senha;
+    var recorrente;
+    
+    recorrente = true;
+    do {
+        usuario = window.prompt('Enter a value for usuario');
+        if (usuario == "Ana") {
+            senha = window.prompt('Enter a value for senha');
+            if (senha == "12345") {
+                window.alert("Ótimo!! agora você esta logado");
+                recorrente = false;
+            } else {
+                window.alert("usuario ou senha invalida");
+            }
+        }
+    } while (recorrente == true);
+}
+   
+   function login_enquanto() {
+    var usuario;
+    var senha;
+    var recorrente;
+    
+    recorrente = true;
+    while (recorrente == true) {
+        usuario = window.prompt('Enter a value for usuario');
+        if (usuario == "Ana") {
+            senha = window.prompt('Enter a value for senha');
+            if (senha == "12345") {
+                window.alert("Ótimo!! agora você esta logado");
+                recorrente = false;
+            } else {
+                window.alert("usuario ou senha invalida");
+            }
+        }
+    }
+}
+</script>
+<body>
+
+<button onclick="login_faça()"> Login faça </button>
+<button onclick="login_enquanto()"> Login enquanto </button>
+
+
+</body>
