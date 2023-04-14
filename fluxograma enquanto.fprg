@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ALUNO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-04-12 12:56:33 "/>
+        <attribute name="created" value="QUxVTk87RUNFNDM2TUlDUk8yNzsyMDIzLTA0LTEyOyIxMjo1Mzo0OSAiOzI0MjE="/>
+        <attribute name="edited" value="QUxVTk87RUNFNDM2TUlDUk8yNzsyMDIzLTA0LTEyOyIxMjo1NjozMyAiOzE7MjUyNQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="usuario" type="String" array="False" size=""/>
+            <declare name="senha" type="String" array="False" size=""/>
+            <declare name="recorrente" type="Boolean" array="False" size=""/>
+            <assign variable="recorrente" expression="true"/>
+        </body>
+    </function>
+</flowgorithm>

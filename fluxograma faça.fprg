@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ALUNO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-04-12 12:56:03 "/>
+        <attribute name="created" value="QUxVTk87RUNFNDM2TUlDUk8yNzsyMDIzLTA0LTEyOyIxMjoyNjowNCAiOzI0MTI="/>
+        <attribute name="edited" value="QUxVTk87RUNFNDM2TUlDUk8yNzsyMDIzLTA0LTEyOyIxMjo1NjowMyAiOzI7MjUyMw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="usuario" type="String" array="False" size=""/>
+            <declare name="senha" type="String" array="False" size=""/>
+            <declare name="recorrente" type="Boolean" array="False" size=""/>
+            <assign variable="recorrente" expression="true"/>
+            <do expression="recorrente==true">
+                <input variable="usuario"/>
+                <if expression="usuario==&quot;Ana&quot;">
+                    <then>
+                        <input variable="senha"/>
+                        <if expression="senha==&quot;12345&quot;">
+                            <then>
+                                <output expression="&quot;&#211;timo!! agora voc&#234; esta logado&quot;" newline="True"/>
+                                <assign variable="recorrente" expression="false"/>
+                            </then>
+                            <else>
+                                <output expression="&quot;usuario ou senha invalida&quot;" newline="True"/>
+                            </else>
+                        </if>
+                    </then>
+                    <else>
+                        <output expression="&quot;Usuario ou senha invalida&quot;" newline="True"/>
+                    </else>
+                </if>
+            </do>
+        </body>
+    </function>
+</flowgorithm>
